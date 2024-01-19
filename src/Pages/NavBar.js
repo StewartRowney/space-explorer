@@ -5,11 +5,9 @@ const NavBar = () => {
     return (
         <div>
             <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                </ul>
+                <Link to="/"><button>Home</button></Link>
+                <Link to="/planets"><button>Planets</button></Link>
+                <Link to="/rockets"><button>Rockets</button></Link>   
             </nav>
             <Outlet />
         </div>

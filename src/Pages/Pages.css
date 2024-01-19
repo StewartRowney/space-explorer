@@ -1,6 +1,42 @@
 .home-background{
     background-image: url(../Images/earth.jpg);
-    height: 100vh;
+    width: 99vw;
+    height: 50vw;
+    min-width: 400px;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.planets-background{
+    background-image: url(../Images/planets.jpg);
+    width: 99vw;
+    height: 50vw;
+    min-width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.rockets-background{
+    background-image: url(../Images/rockets.jpg);
+    width: 99vw;
+    height: 50vw;
+    min-width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header {
+    color: white;
+    font-size: 5vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5vw;
+}
+
+.header-container {
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
 }
