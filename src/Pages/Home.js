@@ -4,10 +4,12 @@ import PageHeader from "../Components/PageHeader";
 
 const Home = () => {
     return (
-        <div className="home-background">
-            <NavBar></NavBar>
-            <PageHeader title="Explore"/>
-        </div>
+        <>
+            <div className="home-background">
+                <NavBar></NavBar>
+                <PageHeader title="Explore"/>
+            </div>
+        </>
     );
 }
 
